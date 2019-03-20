@@ -1,0 +1,7 @@
+<div *ngIf="iniciado!=null">
+  <div *ngFor="let p of  preguntas.results">
+
+    <app-tarjeta-pregunta [pregunta]="p"></app-tarjeta-pregunta>  
+
+  </div>
+</div>
